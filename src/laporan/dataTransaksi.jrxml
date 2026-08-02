@@ -167,7 +167,7 @@ ORDER BY t.tanggal, t.id_transaksi]]>
 				<textElement textAlignment="Center">
 					<font fontName="Segoe UI" size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{TANGGAL_CETAK}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Jakarta, " + new SimpleDateFormat("EEEE dd MMMM yyyy", new Locale("id","ID")).format($P{TANGGAL_CETAK})]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="335" y="95" width="180" height="18" uuid="09bbe854-c88f-4814-90ff-4a700f95ad4d"/>
