@@ -8,7 +8,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * Engine Apriori:
+ * Engine Apriori:ww
  * 1. run()          -> menghasilkan seluruh tahap Candidate/Frequent k-Itemset
  * 2. generateRules() -> dari Frequent Itemset (ukuran >= 2) yang terbentuk,
  *                        membuat semua kemungkinan aturan asosiasi (Antecedent -> Consequent)
